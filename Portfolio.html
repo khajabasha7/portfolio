@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Khajabasha Shaik — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">KS_</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="hero-tag">Front-end Developer &amp; ML Engineer</div>
+    <h1>
+      <span class="block">Khaja</span>
+      <span class="block accent">Basha</span>
+      <span class="block">Shaik</span>
+    </h1>
+    <p class="hero-desc">
+      Building pixel-perfect interfaces and intelligent systems.<br/>
+      B.Tech CSE @ SRM University · CGPA 8.37
+    </p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-primary">View Projects ↓</a>
+      <a href="#contact" class="btn btn-outline">Get in Touch</a>
+    </div>
+  </div>
+  <div class="hero-number">01 / PORTFOLIO — 2025</div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <div class="section-label">About Me</div>
+      <h2>Code. Create.<br/>Connect.</h2>
+      <p>I'm a Computer Science student at SRM University with a strong foundation in front-end development and a growing passion for AI &amp; Machine Learning. I love turning ideas into clean, performant digital experiences.</p>
+      <p>From building React-powered movie apps to designing IoMT health prediction systems, I thrive at the intersection of design and intelligent systems.</p>
+    </div>
+    <div class="about-stats reveal">
+      <div class="stat-card">
+        <div class="stat-number">8.37</div>
+        <div class="stat-label">B.Tech CGPA</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">4+</div>
+        <div class="stat-label">Projects Built</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">96%</div>
+        <div class="stat-label">ML Model Accuracy</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">6mo</div>
+        <div class="stat-label">Industry Experience</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-label">What I Know</div>
+  <h2 class="reveal">Skills &amp;<br/>Technologies</h2>
+  <div class="skills-grid">
+    <div class="skill-group reveal">
+      <div class="skill-group-title">Languages</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">HTML</span>
+        <span class="skill-tag">CSS</span>
+        <span class="skill-tag">SQL</span>
+      </div>
+    </div>
+    <div class="skill-group reveal">
+      <div class="skill-group-title">Frameworks &amp; Libraries</div>
+      <div class="skill-tags">
+        <span class="skill-tag">React.js</span>
+        <span class="skill-tag">Next.js</span>
+        <span class="skill-tag">TypeScript</span>
+        <span class="skill-tag">Tailwind CSS</span>
+        <span class="skill-tag">Vite</span>
+      </div>
+    </div>
+    <div class="skill-group reveal">
+      <div class="skill-group-title">AI / Machine Learning</div>
+      <div class="skill-tags">
+        <span class="skill-tag">K-Means Clustering</span>
+        <span class="skill-tag">Random Forest</span>
+        <span class="skill-tag">IoMT</span>
+        <span class="skill-tag">Data Analysis</span>
+      </div>
+    </div>
+    <div class="skill-group reveal">
+      <div class="skill-group-title">Testing &amp; Process</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Manual Testing</span>
+        <span class="skill-tag">SDLC</span>
+        <span class="skill-tag">STLC</span>
+        <span class="skill-tag">Git</span>
+      </div>
+    </div>
+    <div class="skill-group reveal">
+      <div class="skill-group-title">Languages Spoken</div>
+      <div class="skill-tags">
+        <span class="skill-tag">English</span>
+        <span class="skill-tag">Telugu</span>
+        <span class="skill-tag">Hindi</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects-bg" id="projects">
+  <div class="section-label">What I've Built</div>
+  <h2 class="reveal">Featured<br/>Projects</h2>
+
+  <div class="projects-grid">
+
+    <!-- Project 1 -->
+    <div class="project-card reveal">
+      <div class="project-num">01 — FRONTEND</div>
+      <div class="project-title">Movie Finder App</div>
+      <p class="project-desc">
+        A modern movie discovery web app that allows users to search movies, view details, and explore trending content using real-time API integration. 
+        Built with a fast and responsive UI for smooth user experience.
+      </p>
+      <div class="project-tech">
+        <span class="tech-pill">React.js</span>
+        <span class="tech-pill">API Integration</span>
+        <span class="tech-pill">Vite</span>
+        <span class="tech-pill">Netlify</span>
+      </div>
+      <a href="https://movieee-finderrr.netlify.app/" target="_blank" class="btn btn-outline" style="margin-top:1rem;">
+        Live Demo →
+      </a>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card reveal">
+      <div class="project-num">02 — FULL STACK</div>
+      <div class="project-title">Expense Tracker</div>
+      <p class="project-desc">
+        A personal finance management application to track income and expenses, visualize spending patterns, and manage budgets efficiently.
+        Includes real-time updates and clean dashboard UI for better financial insights.
+      </p>
+      <div class="project-tech">
+        <span class="tech-pill">Next.js</span>
+        <span class="tech-pill">TypeScript</span>
+        <span class="tech-pill">Tailwind CSS</span>
+        <span class="tech-pill">Netlify</span>
+      </div>
+      <a href="https://expensetracker786.netlify.app/" target="_blank" class="btn btn-outline" style="margin-top:1rem;">
+        Live Demo →
+      </a>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card reveal">
+      <div class="project-num">03 — AI / ML</div>
+      <div class="project-title">Disease Prediction System</div>
+      <p class="project-desc">
+        An AI-powered healthcare prediction system that analyzes patient data such as symptoms and medical parameters to predict possible diseases. 
+        Uses machine learning models to improve early diagnosis and assist healthcare decision-making with high accuracy.
+      </p>
+      <div class="project-tech">
+        <span class="tech-pill">Python</span>
+        <span class="tech-pill">Scikit-learn</span>
+        <span class="tech-pill">Random Forest</span>
+        <span class="tech-pill">Data Analysis</span>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-num">04 — AI / MACHINE LEARNING</div>
+      <div class="project-title">IoMT Health Monitor</div>
+      <p class="project-desc">Real-time patient health monitoring system using IoMT devices. Applies K-Means clustering and a Random Forest classifier achieving 96% accuracy to predict diseases and route patients to the correct medical department.</p>
+      <div class="project-tech">
+        <span class="tech-pill">Python</span>
+        <span class="tech-pill">Random Forest</span>
+        <span class="tech-pill">K-Means</span>
+        <span class="tech-pill">IoMT</span>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+        <div class="project-num">05 — FullStack</div>
+        <div class="project-title">Retail Management System</div>
+        <p class="project-desc">Developed a full-stack web application for managing retail operations, including products, inventory, and sales data. Built a responsive React.js frontend, integrated REST APIs using Node.js and Express.js, and used MongoDB for efficient data storage and management.</p>
+        <div class="project-tech">
+          <span class="tech-pill">React.js</span>
+          <span class="tech-pill">Node.js</span>
+          <span class="tech-pill">Express.js</span>
+          <span class="tech-pill">MongoDB</span>
+          <span class="tech-pill">REST API</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-label">Career</div>
+  <h2 class="reveal">Work<br/>Experience</h2>
+  <div class="exp-timeline">
+    <div class="exp-item reveal">
+      <div class="exp-date">May 2023 — Jul 2023</div>
+      <div class="exp-role">Front-end Developer Intern</div>
+      <div class="exp-company">CodeSwap Solutions PVT LTD</div>
+      <ul class="exp-desc">
+        <li>Designed and developed user-friendly clone web pages using HTML, CSS, and JavaScript.</li>
+        <li>Optimized website performance through efficient coding and caching strategies.</li>
+        <li>Followed industry best practices and coding standards to ensure high-quality output.</li>
+        <li>Identified and resolved front-end technical issues for smooth web application operation.</li>
+      </ul>
+    </div>
+
+    <div class="exp-item reveal">
+      <div class="exp-date">Sep 2021 — Jul 2025</div>
+      <div class="exp-role">Academic Group Projects</div>
+      <div class="exp-company">SRM University, AP</div>
+      <ul class="exp-desc">
+        <li>Collaborated on numerous group projects, honing teamwork and communication skills.</li>
+        <li>Worked with diverse teams, articulating technical ideas clearly across disciplines.</li>
+      </ul>
+    </div>
+
+    <div class="exp-item reveal">
+        <div class="exp-date">Mar 2026 — Jun 2026</div>
+        <div class="exp-role">Freelance Prompt Engineer</div>
+        <div class="exp-company">Drytis.ai (Freelance)</div>
+        <ul class="exp-desc">
+          <li>Created and optimized prompts based on assigned tasks using AI platforms.</li>
+          <li>Generated AI-based outputs including web pages/content based on task requirements.</li>
+          <li>Worked with AI tools to complete client tasks efficiently.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="edu-bg" id="education">
+  <div class="section-label">Academic Background</div>
+  <h2 class="reveal">Education</h2>
+  <div class="edu-grid">
+    <div class="edu-card reveal" data-year="2021–2025">
+      <div class="edu-cgpa">8.37</div>
+      <div class="edu-degree">B.Tech — Computer Science</div>
+      <div class="edu-school">SRM University, Andhra Pradesh</div>
+    </div>
+    <div class="edu-card reveal" data-year="2019–2021">
+      <div class="edu-cgpa">8.8</div>
+      <div class="edu-degree">Intermediate (10+2)</div>
+      <div class="edu-school">Bhashyam Junior College, Guntur</div>
+    </div>
+    <div class="edu-card reveal" data-year="2018–2019">
+      <div class="edu-cgpa">9.2</div>
+      <div class="edu-degree">10th Grade</div>
+      <div class="edu-school">Bhashyam Public School, Guntur</div>
+    </div>
+  </div>
+
+  <!-- Certificates -->
+  <div style="margin-top:4rem;">
+    <div class="section-label" style="margin-bottom:1.5rem;">Certifications</div>
+    <div style="display:flex;flex-wrap:wrap;gap:1rem;">
+      <div class="skill-group reveal" style="flex:1;min-width:250px;">
+        <div class="skill-group-title">Front-end Internship</div>
+        <p style="font-family:var(--font-mono);font-size:0.8rem;color:var(--muted);font-weight:300;">Issued by CodeSwap Solutions — Certified Front-end Developer Intern</p>
+      </div>
+      <div class="skill-group reveal" style="flex:1;min-width:250px;">
+        <div class="skill-group-title">ServiceNow</div>
+        <p style="font-family:var(--font-mono);font-size:0.8rem;color:var(--muted);font-weight:300;">Certified by ServiceNow platform training program</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-inner">
+    <div class="reveal">
+      <div class="section-label">Say Hello</div>
+      <div class="contact-tagline">Let's build<br/>something <span class="hl">great</span><br/>together.</div>
+      <p class="contact-sub">Open to internships, full-time roles, and freelance projects. Drop me a message and I'll get back to you.</p>
+    </div>
+    <div class="contact-links reveal">
+      <a href="mailto:shaikkhajabasha3@gmail.com" class="contact-link">
+        <div class="contact-link-icon">✉</div>
+        <div class="contact-link-info">
+          <div class="contact-link-label">Email</div>
+          <div class="contact-link-value">shaikkhajabasha3@gmail.com</div>
+        </div>
+        <div class="contact-link-arrow">→</div>
+      </a>
+      <a href="tel:+919063199348" class="contact-link">
+        <div class="contact-link-icon">☎</div>
+        <div class="contact-link-info">
+          <div class="contact-link-label">Phone</div>
+          <div class="contact-link-value">+91 9063199348</div>
+        </div>
+        <div class="contact-link-arrow">→</div>
+      </a>
+      <a href="https://github.com/khajabasha7" target="_blank" class="contact-link">
+        <div class="contact-link-icon">⌥</div>
+        <div class="contact-link-info">
+          <div class="contact-link-label">GitHub</div>
+          <div class="contact-link-value">khajabasha7</div>
+        </div>
+        <div class="contact-link-arrow">→</div>
+      </a>
+      <a href="https://linkedin.com/in/khajabasha-shaik7" target="_blank" class="contact-link">
+        <div class="contact-link-icon">in</div>
+        <div class="contact-link-info">
+          <div class="contact-link-label">LinkedIn</div>
+          <div class="contact-link-value">khajabasha-shaik7</div>
+        </div>
+        <div class="contact-link-arrow">→</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Khajabasha Shaik. All rights reserved.</p>
+  
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
